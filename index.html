@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Security Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Grid Security Dashboard</h1>
+    </header>
+    <main>
+        <!-- Existing Features Section -->
+        <section id="existing-features">
+            <h2>Existing Features</h2>
+            <p>This section contains the original features of the dashboard.</p>
+            <ul>
+                <li>Feature 1: Encryption/Decryption.</li>
+                <li>Feature 2: Real-time Security Metrics.</li>
+                <li>Feature 3: User Authentication and Authorization Logs.</li>
+            </ul>
+        </section>
+
+        <!-- New Feature: Grid Simulator -->
+        <section id="grid-simulator">
+            <h2>Grid Simulator</h2>
+            <div id="grid-container">
+                <div class="node" data-node="1">Node 1</div>
+                <div class="node" data-node="2">Node 2</div>
+                <div class="node" data-node="3">Node 3</div>
+            </div>
+            <button id="simulate-task">Simulate Task Allocation</button>
+            <div id="grid-metrics">
+                <p>Throughput: <span id="throughput">0</span> tasks/sec</p>
+                <p>Latency: <span id="latency">0</span> ms</p>
+            </div>
+        </section>
+
+        <!-- New Feature: Real-Time Threat Monitoring -->
+        <section id="real-time-monitoring">
+            <h2>Real-Time Threat Monitoring</h2>
+            <div id="traffic-data">
+                <p>Packets per second: <span id="packets">0</span></p>
+                <p>Dropped packets: <span id="dropped">0</span></p>
+                <div id="traffic-graph"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Grid Security Dashboard © 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
